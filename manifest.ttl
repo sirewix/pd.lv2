@@ -1,0 +1,14 @@
+@prefix lv2:  <http://lv2plug.in/ns/lv2core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+@prefix pd-lv2: <https://github.com/sirewix/pd.lv2#> .
+
+pd-lv2:mono
+  a lv2:Plugin;
+  lv2:binary <plugin.so>;
+  rdfs:seeAlso <plugin.ttl>.
+
+pd-lv2:stereo
+  a lv2:Plugin;
+  lv2:binary <plugin.so>;
+  rdfs:seeAlso <plugin.ttl>.
